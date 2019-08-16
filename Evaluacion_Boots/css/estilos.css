@@ -1,0 +1,97 @@
+body{
+  background-color: rgba(113, 19, 0, 0.9);
+}
+
+.container{
+  background-color:white;
+  margin-top:20px;
+}
+
+.encabezado{
+  padding-top:40px !important;
+  padding-bottom:40px !important;
+}
+
+.navbar-inverse{
+  height:40%;
+  background-color:rgba(248, 166, 68, 0.9);
+  border:none;
+  padding-top:15px;
+}
+
+a:hover {
+  background-color:white;
+  text-decoration: none;
+}
+
+.navbar a{
+  color: rgba(113, 19, 0, 0.9);
+  align-content:center;
+}
+
+.logo-img{
+  width:100px;
+}
+
+.queen-img{
+  padding-top:30px;
+  margin-top:40px;
+}
+
+.tomorrow{
+  margin-top:40px;
+  }
+
+.persona{
+margin-left:20px;
+margin-top:15px;
+  width:30px;
+  }
+
+.busqueda{
+  border-radius:10px !important;
+  height:40px;
+  width:100% !important;
+}
+
+.columna2{
+  margin-top: 40px;
+}
+
+.comentario{
+    border-radius:10px !important;
+    height:20% !important;
+    width:100%;
+    margin-left:10px;
+}
+
+.redes-sociales{
+margin-top:20px;
+}
+
+.img-social{
+  height:40px;
+  width:40px;
+}
+
+.busqueda{
+  border-radius:10px !important;
+}
+
+@media (max-width:770px){
+  .encabezado{
+text-align: center;
+}
+.contenido{
+    text-align: center;
+  }
+.fondo{
+    text-align: center;
+  }
+.general{
+  text-align: center;
+  }
+.tomorrow{
+  margin:0 auto;
+}
+}

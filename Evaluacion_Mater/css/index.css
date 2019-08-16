@@ -1,0 +1,159 @@
+
+.encabezado{
+  background-color: rgb(102,178,255);
+  height: 150px;
+}
+
+ .logo img{
+   width:120px;
+   padding-top:15px;
+   float:left;
+   border-radius:2em;
+ }
+
+.slogan{
+  color:white;
+  left:200px;
+  margin-top:50px;
+  font-style: italic;
+  font-size:30px;
+}
+
+.barra_nav{
+  padding-top:20px !important;
+}
+
+.btn i{
+  font-size:20px;
+}
+
+.arriba{
+  margin-top:10px;
+}
+
+.cuerpo{
+  background-image:url("../img/fondo2.png");
+  background-size:cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position:center;
+  width:100%;
+  height:100%;
+}
+
+.columna-principal{
+  margin-top:10px;
+}
+
+.lado-izq{
+  background-color:white;
+}
+
+.columna-izq img{
+  height: 350px;
+}
+
+.central img{
+  height: 800px !important;
+}
+
+.columna-der img{
+  height: 250px;
+}
+
+.lado-izq img{
+  width:300px;
+}
+
+.borde{
+  border-radius:2em;
+  text-transform:capitalize;
+  margin-left:10px;
+}
+
+.galapagos{
+  padding-top:20px;
+  float:left;
+  margin-right:10px;
+}
+
+.parrafo{
+  padding-left:10px;
+}
+
+img{
+  width: 100%;
+}
+
+.comentario{
+  background-color: rgb(102,178,255);
+  color:white;
+}
+
+.linea{
+  margin-top:25px;
+}
+
+.enviar{
+background-color:white;
+height:35px;
+color:rgb(102,178,255);
+}
+
+.lado-der{
+  background-color:white;
+  padding: 20px;
+}
+
+.autor{
+  max-width: 300px !important;
+  max-height: 300px !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  }
+
+.perfil{
+  font-size:30px;
+  }
+
+
+@media (max-width:600px){
+
+.columna-principal{
+    text-align: center;
+  }
+.caja3{
+    text-align: center;
+  }
+.general{
+  text-align: center;
+  }
+
+  .galapagos {
+      width: 100% !important;
+      max-width: 100% !important;
+          }
+  .titulo{
+    text-align:center;
+  }
+  .perfil{
+    text-align:center;
+    width:100%;
+      }
+
+  .autor{
+    width:100%;
+  }
+  .slogan{
+     width:100%;
+     font-size:12px;
+     margin-top:110px;
+     margin-right: 20px;
+  }
+
+  .tamaño{
+  margin-right:5px;
+  }
+  }
